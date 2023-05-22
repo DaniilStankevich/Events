@@ -1,0 +1,180 @@
+ @media (max-width: 768px) {
+ 
+  .window_left  {
+    top: -22px;
+    left: -10px;
+    width:  261px;
+    height: auto;
+    }
+
+  .window_right {
+    top: 0px;
+    right: 0px;
+    width:  280px;
+    height: auto;  
+  }
+
+
+  .header-logo {
+    margin-top: 100px;
+  }
+
+  .main_tittle {
+    margin-top: 166px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0em;
+  }
+
+  .sub_tittle {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    white-space: pre-wrap; 
+    max-width: 286px;
+  }
+
+  .timer {
+    min-width: 358px;
+    min-height: 82px;
+  }
+
+  .timer_item {
+    min-width: 64px; 
+    font-size: 36px;
+    line-height: 36px;   
+  }
+
+  .timer_item:nth-child(1) {
+    background-image: url('../img/min_data/DD.svg');
+    }
+    .two {
+      background-image:  url('../img/min_data/HH.svg');
+    }
+    .three {
+      background-image:  url('../img/min_data/MM.svg');
+    }
+    .timer_item:last-child{
+      background-image:  url('../img/min_data/SS.svg');
+    }  
+
+    .points {
+		/*display: none;*/
+		padding-top: 7px;
+	}
+	
+	.points .img {       
+	   max-height: 20px;
+    }
+
+  .button_title {
+    margin-top: 40px;
+    font-size: 16px;
+    line-height: 24px;
+   }
+
+  .footer {
+    margin-top: 169px;
+    height: 160px;
+   }
+
+   form {
+    width: 360px;
+    height: 41px;
+   }
+
+   input[type="email"] {
+    width: 259px;
+    height: 27px;
+    font-size: 13px;
+    line-height: 21px;
+  }
+
+   button.round-button {
+    width: 33px;
+    height: 33px;
+  }
+
+  .slide{
+    width: 100%!important ;
+    margin-bottom: 15px;
+    height: auto;
+  }
+
+  .slide-content {
+    width: 100%!important;
+    padding: 25px;
+    font-size: 70%;
+  }
+
+}
+
+@media (max-width: 360px) {
+  .header-logo {
+    margin-top: 80px;
+    width: 128px ;
+    height: auto;
+    }
+
+  .window_left {
+    position: absolute;
+    margin-left: -10px;
+    width:  190px;
+    height: auto;
+  }
+
+  .window_right {
+    position: absolute;
+    width:  170px;
+    height: auto;   
+  }
+
+  .main_tittle {
+    margin-top: 66px;
+  }
+
+  .sub_tittle {
+    margin-top: 16px;
+  }
+
+  .timer {
+    margin-top: 40px;
+    min-width: 310px;
+    min-height: 82px;
+   }
+
+  .button_title {
+    margin-top: 40px;
+  }
+
+  .button {
+    margin-top: 12px;
+    height: 60px;
+    width: 240px;                                                                         
+  }
+
+  .footer {
+    margin-top: 86px;
+    margin-bottom: 46px;
+    height: 141px;
+    }
+
+  .container-slides {
+     margin-top: 20px;
+    }
+
+  form {
+    width: 280px;
+    height: 41px;
+  }
+
+  input[type="email"] {
+    width: 200px;
+    height: 27px;
+  }
+
+}
+
+
+
